@@ -1,0 +1,56 @@
+.register {
+    *{
+        background-color: transparent;
+    }
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 50px);
+    background: linear-gradient(rgba(227, 230, 233,0.5),rgba(227, 230, 233,0.5)), url("../../../public/assets/headerImg.jpg");
+    background-size: cover;
+    font-family: 'Lora',sans-serif;
+    .registerTitle {
+        font-size: 50px;
+
+        margin:10px 0px;
+    }
+    .registerForm {
+        width: 200px;
+        display: flex;
+        flex-direction: column;
+        label {
+            margin-top:10px;
+        }
+        input {
+            background-color: white;
+            padding:10px 10px;
+            border:none;
+            margin-bottom: 15px;
+
+        }
+        input:focus {
+            outline:none;
+        }
+        .registerSubmit {
+            border-radius: 10px;
+            padding:10px 0px;
+            border:none;
+            background-color:rgb(23, 103, 173);
+            color:white;
+            cursor: pointer;
+        }
+    }
+    .registerRegister {
+        width:100px;
+        height:30px;
+        border-radius: 10px;
+        border:none;
+        background-color:rgb(23, 103, 173);
+        color:white;
+        position: absolute;
+        top:70px;
+        right:30px;
+        
+    }
+}

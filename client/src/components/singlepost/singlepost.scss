@@ -1,0 +1,96 @@
+.singleWrapper {
+
+    margin-left: 30px;
+    flex: 75%;
+    .singleImg {
+        width: 100%;
+        height: 500px;
+        object-fit: cover;
+        border-radius: 15px;
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+    }
+    .singleMain {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        .singleTitle {
+            font-family: 'Josefin Sans', sans-serif;
+            font-weight: 600;
+            font-size: 40px;
+            margin: 50px 0px;
+            text-align: center;
+        }
+        .singleTitleInput {
+            font-family: 'Josefin Sans', sans-serif;
+            font-weight: 600;
+            font-size: 40px;
+            margin: 50px 0px;
+            text-align: center;
+            color: rgb(141, 141, 141);
+            border:none;
+        }
+        .singleTitleInput:focus {
+            outline: none;
+        }
+        .singleIcons{
+            position: absolute;
+            right: 5px;
+            top: 10px;
+            .edit {
+                color: teal;
+                font-size: 30px;
+                cursor: pointer;
+                margin-right: 10px;
+            }
+            .delete {
+                color:orangered;
+                font-size: 30px;
+                cursor: pointer;
+            }
+        }
+        .singleAuthor {
+            color:rgb(158, 132, 3);
+            margin-bottom: 10px;
+        }
+        .singleTime {
+            float: right;
+            color:rgb(158, 132, 3);
+        }
+        .singleText {
+            font-size: 20px;
+            font-family:'Lora', sans-serif ;
+            color:rgb(85, 85, 85);
+        
+            &::first-letter {
+                margin-left: 20px;
+                font-size: 40px;
+            }
+            margin-bottom: 50px;
+        }
+        .singleTextInput {
+            border:none;
+            font-size: 20px;
+            font-family:'Lora', sans-serif ;
+            color:rgb(85, 85, 85);
+            margin-bottom: 50px;
+        }
+        .singleTextInput:focus {
+            outline: none;
+        }
+        .singlePublish {
+            margin:0 auto;
+            padding:5px 20px;
+            border: none;
+            border-radius: 15px;
+            cursor: pointer;
+            font-size: 20px;
+            color:white;
+            background-color: teal;
+        }
+    }
+    
+}

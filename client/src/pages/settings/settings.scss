@@ -1,0 +1,83 @@
+.settings {
+    height: 100vh;
+    display: flex;
+    .setttingsWrapper {
+        flex: 75%;
+        margin: 40px;
+        display: flex;
+        flex-direction: column;
+
+        .settingsTitle{
+            margin: 20px 0px;
+            display: flex;
+            justify-content: space-between;
+            text-align: center;
+            font-family: 'Josefin Sans', sans-serif;
+            .settingsUpdate {
+                font-size: 40px;
+                font-weight: 200;
+                color:rgb(255, 117, 67);
+            }
+            .settingsDelete {
+                font-size: 20px;
+                font-weight: 500;
+                height:40px;
+                width: 150px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 10px;
+                cursor: pointer;
+            }
+            .settingsDelete:hover {
+                color:white;
+                background-color: black;
+            }
+        }
+        .settingsForm {
+            display: flex;
+            flex-direction: column;
+   
+            font-family: 'Varela', sans-serif;
+            .settingsPP {
+                display: flex;
+                align-items: center;
+                margin-left: 10px;
+                img {
+                    width: 100px;
+                    height: 100px;
+                    border-radius: 20px;
+                    object-fit: cover;
+                    margin-right: 10px;
+                }
+                .settingsIcon {
+                    cursor: pointer;
+                    font-size: 40px;
+                }
+            }
+            label {
+                font-size: 20px;
+                margin: 10px;
+            }
+            input {
+                border: none;
+                margin:10px;
+                border-bottom: 1px solid lightgrey;
+            }
+            input:focus {
+                outline: none;
+            }
+            .settingsSubmitButton {
+                margin-top: 30px;
+                border-radius: 10px;
+                border: none;
+                width:80px;
+                height:40px;
+                align-self: center;
+                color:white;
+                background-color: rgb(255, 117, 67);;
+                cursor: pointer;
+            }
+        }
+    }
+}

@@ -1,0 +1,84 @@
+.sidebar {
+    flex: 25%;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    * {
+        background-color: rgb(216, 224, 228);
+    }
+    
+
+    .sidebarIntro {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .sidebarHeading {
+            font-family: 'Varela', sans-serif;
+            font-size:30px;
+            padding: 10px 0;
+            margin:10px 0;
+            text-align: center;
+            width:300px;
+            border-top: 1px solid grey;
+        }
+        .sidebarIntroImg {
+            width:300px;
+        }
+        .sidebarIntroText {
+            width:300px;
+            margin:10px 0;
+        }
+    }
+
+    .sidebarCategories {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .sidebarHeading {
+            font-family: 'Varela', sans-serif;
+            font-size:30px;
+            padding: 10px 0;
+            margin:10px 0;
+            text-align: center;
+            width:300px;
+            border-top: 1px solid grey;
+        }
+        .categories {
+            display: flex;
+            justify-content: center;
+            width: 300px;
+            gap:5px 30px;
+            list-style: none;
+            margin-left:0;
+            padding-left: 0;
+            flex-wrap: wrap;
+            .category {
+                font-family: 'Lora', serif;
+            }
+        }
+    }
+
+    .sidebarFollowUs {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .sidebarHeading {
+            font-family: 'Varela', sans-serif;
+            font-size:30px;
+            padding: 10px 0;
+            margin:10px 0;
+            text-align: center;
+            width:300px;
+            border-top: 1px solid grey;
+        }
+        .sidebarSocialIcons{
+            margin-left:20px;
+            .sidebarIcon {
+                margin-right: 20px;
+                cursor: pointer;
+            }
+        }
+    }
+}
